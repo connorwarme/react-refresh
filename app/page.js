@@ -4,9 +4,18 @@ const Header = ({ title }) => {
   return (
   <>
     <h1>{title ? title : "Blank Title"}</h1>
-    <LikeButton />
   </>
   )
 }
 
-export default Header;
+const HomePage = () => {
+  return (
+    <>
+      <Header />
+      <div>Like button counts up!</div>
+      <LikeButton />
+    </>
+  )
+}
+
+export default HomePage;
