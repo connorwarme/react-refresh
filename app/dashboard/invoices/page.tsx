@@ -2,7 +2,7 @@ const Page = () => {
 
   return (
     <>
-      <h1>Customers Header</h1>
+      <h1>Invoices Header</h1>
     </>
   )
 }
