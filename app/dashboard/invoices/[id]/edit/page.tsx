@@ -8,7 +8,6 @@ export default async function Page({ params }: { params: { id: string } }) {
     fetchInvoiceById(id),
     fetchCustomers()
   ]);
-  console.log(id)
   return (
     <main>
       <Breadcrumbs
